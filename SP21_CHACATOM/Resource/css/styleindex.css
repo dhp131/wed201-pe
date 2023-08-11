@@ -1,0 +1,64 @@
+.footer {
+  background-color: gray;
+  border-top: 2px solid orange;
+  padding-top: 20px;
+  margin-top: 6px;
+}
+.footer ul li {
+  color: white;
+  font-size: 18px;
+}
+.container {
+  background-color: #343334;
+}
+.food {
+  margin-top: 20px;
+}
+.des-title {
+  color: yellow;
+  font-size: 20px;
+}
+.des-script {
+  color: white;
+  text-align: justify;
+  font-size: 18px;
+}
+.btn {
+  background-color: orangered;
+  height: 50px;
+  color: aliceblue;
+  border: 1px solid;
+  border-radius: 15px;
+}
+form {
+  margin: 20px 0px;
+}
+@media (max-width: 992px) {
+  .display-img img {
+    width: 100%;
+  }
+}
+.list {
+  color: white;
+  max-width: fit-content;
+  display: none;
+  margin: 0 auto;
+  padding-bottom: 15px;
+}
+.lt-num {
+  width: 180px;
+}
+.lt-food {
+  width: 300px;
+}
+.lt-price {
+  width: 80px;
+}
+.name-food {
+  text-align: left;
+  padding-left: 10px;
+}
+.list-table tr td {
+  border: 1px solid white;
+  height: 40px;
+}

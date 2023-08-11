@@ -1,0 +1,83 @@
+.logo{
+    height: 70px;
+    object-fit: contain;
+    width: 100px;
+}
+.header{
+    margin-bottom: 20px;
+}
+.header button:first-child{
+    background-color: #09a125;
+}
+.header button:first-child .icon-bar{
+    background-color: #fff;
+}
+.navbar-restaurant a{
+    color: #16a1a1;
+}
+.banner-mientay img {
+  margin: 0 auto;
+  width: 600px;
+}
+.right-side {
+  background-color: #bcf3f3;
+}
+.right-side .title {
+  border-bottom: 4px solid #066e6e;
+}
+.title {
+  color: #ed8a2d;
+}
+.description {
+  font-size: 2rem;
+}
+.display-flex {
+  display: flex;
+  margin-bottom: 20px;
+}
+.img-menu {
+  width: 100px;
+  height: 100px;
+  margin-right: 20px;
+  object-fit: cover;
+}
+.buffet {
+  padding: 15px;
+}
+.buffet-img-group{
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+}
+.buffet-img-group img{
+    display: inline;
+    width: 50%;
+}
+.family-party {
+  padding: 0 15px 15px 15px;
+}
+.family-party-img-group{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.footer {
+  background-color: rgba(17, 154, 146, 255);
+  color: #fff;
+  text-align: center;
+  padding: 15px 0px;
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+@media (max-width: 992px) {
+    .navbar-restaurant{
+        margin-top: 30px;
+    }
+    .buffet-img-group{
+        width: 100%;
+    }
+    .family-party-img-group{
+        width: 100%;
+    }
+    
+}

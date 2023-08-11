@@ -1,0 +1,97 @@
+.logo{
+    height: 70px;
+    width: 100px;
+    object-fit: contain;
+}
+.header{
+    padding-top: 10px;
+    padding-left: 5px;
+    margin-bottom: 20px;
+}
+.nav-bar{
+    padding-left: 200px;
+}
+.res-menu li a{
+    color: #0ee1d2;
+    font-size: 1.8rem;
+}
+.title{
+    color: coral;
+}
+.img-mientay img{
+    display: block;
+    margin: 0 auto;
+    width: 600px;
+}
+.description{
+    font-size: 2rem;
+}
+.right-menu{
+    background-color: #bcf3f3;
+}
+.right-menu .title{
+    border-bottom: 5px solid #066e6e;
+}
+.display-flex{
+    display: flex;
+    margin-bottom: 20px;
+}
+.img-menu{
+    width: 115px;
+    height: 115px;
+    margin-right: 20px;
+    object-fit: cover;
+}
+.buffet{
+    padding: 15px;
+}
+.buffet-img-collection{
+    width: 70%;
+    display: flex;
+    margin: 0 auto;
+}
+.buffet-img-collection img{
+    display: inline;
+    width: 50%;
+}
+.family-party{
+    padding: 0 15px 15px 15px;
+}
+.img-beer{
+    width: 50%;
+    margin: 0 auto;
+}
+.footer {
+    background-color: rgba(17, 154, 146, 255);
+    color: #fff;
+    text-align: center;
+    padding: 15px 0px;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.header button:first-child{
+    background-color: #09a125;
+}
+.header button:first-child .icon-bar{
+    background-color: #fff;
+}
+@media (max-width: 992px) {
+    .res-menu{
+        margin-top: 10px;
+    }
+    .nav-bar{
+        padding-left: 20px;
+        padding-top: 30px;
+    }
+    .buffet-img-collection{
+        width: 100%;
+    }
+    .img-beer{
+        width: 100%;
+    }
+}
+
+
+
+

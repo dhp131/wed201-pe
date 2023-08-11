@@ -1,0 +1,95 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.logo img {
+  width: 100%;
+}
+.display-bar {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  margin: 25px 100px 25px 100px;
+  width: 700px;
+  height: 30px;
+}
+.display-bar li a {
+  color: rgb(9, 204, 191);
+  text-decoration: none;
+  font-size: 20px;
+}
+.search-bar {
+  padding-top: 20px;
+}
+.search-button {
+  background-color: black;
+  color: white;
+}
+body {
+  overflow-x: hidden;
+  margin: 0px;
+}
+.banner {
+  width: 100%;
+}
+.title {
+  color: red;
+  text-align: center;
+  margin: 30px;
+}
+.sub-title {
+  color: aqua;
+}
+.left {
+  float: left;
+  box-shadow: 0px 0px 5px 5px lightgray;
+  padding-bottom: 40px;
+  margin-left: 10%;
+}
+.right {
+  float: right;
+  box-shadow: 0px 0px 5px 5px lightgray;
+  height: 694px;
+  margin-right: 10%;
+  padding-left: 10px;
+}
+.right p {
+  border-bottom: 1px solid lightgray;
+  margin-top: 20px;
+  padding-bottom: 10px;
+  font-size: 18px;
+  padding-right: 10px;
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+.img-group {
+  box-shadow: 0px 0px 5px 5px lightgray;
+}
+.img-group img {
+  height: 375px;
+}
+.des-img {
+  background-color: orange;
+  color: white;
+  text-align: center;
+  height: 25px;
+  padding-top: 10px;
+}
+.footer {
+  background-color: rgb(18, 154, 191);
+  color: white;
+  padding: 15px;
+}
+.footer-top {
+  display: flex;
+  justify-content: space-around;
+}
+.footer-bottom {
+  text-align: center;
+  margin-bottom: 0px;
+}

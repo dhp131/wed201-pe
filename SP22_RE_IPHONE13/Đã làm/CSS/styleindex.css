@@ -1,0 +1,112 @@
+.header {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+.logo img {
+  width: 50%;
+}
+.nav-bar {
+  position: relative;
+}
+.display-bar {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  padding-left: 0px;
+  width: 400px;
+  height: 30px;
+}
+.display-bar li a {
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+}
+body {
+  overflow-x: hidden;
+  margin: 0px;
+}
+.search-button {
+  padding-top: 20px;
+}
+.banner {
+  width: 100%;
+}
+.container {
+  display: flex;
+}
+.list-sidebar {
+  width: 25%;
+  background-color: rgb(174, 170, 170);
+}
+.list-sidebar ul {
+  margin: 0;
+  background-color: rgb(174, 170, 170);
+  color: rgb(72, 72, 72);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  list-style: circle;
+  line-height: 1.5;
+}
+.list-sidebar h2 {
+  background-color: rgb(252, 98, 43);
+  color: white;
+  text-align: center;
+  margin: 0;
+}
+.title {
+  text-align: center;
+  color: rgb(44, 171, 171);
+  padding: 20px 0px;
+}
+.sub-title {
+  font-weight: bold;
+}
+.description {
+  box-shadow: 0px 0px 5px 5px lightgray;
+  margin-left: 40px;
+  margin-right: 40px;
+  display: flex;
+  padding: 20px 10px 20px 10px;
+}
+.big-content {
+  width: 75%;
+}
+.des-script {
+  padding-left: 15px;
+  width: 100%;
+}
+.des-script p {
+  word-spacing: 5px;
+  text-align: justify;
+  font-size: 15px;
+}
+.des-img img {
+  width: 100%;
+}
+.description2 {
+  box-shadow: 0px 0px 5px 5px lightgray;
+  width: 30%;
+  border-radius: 10px 10px 0px 0px;
+}
+.display-flex {
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+.description2 img {
+  width: 100%;
+  border-radius: 10px 10px 0px 0px;
+}
+.footer {
+  background-color: rgb(46, 46, 46);
+  color: white;
+  text-align: center;
+  padding-top: 1px;
+  padding-bottom: 1px;
+}

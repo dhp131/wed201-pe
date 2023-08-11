@@ -1,0 +1,119 @@
+.header{
+    display: flex;
+    justify-content: space-around; /* căn đều theo trục giữa và giàn đều*/
+}
+.title{
+    color: green;
+    font-size: 35px;
+    font-family: Ephesis;
+    font-weight: 500;
+}
+.logo{
+    border: solid;
+    border-radius: 100%;
+    border-color: #ccc;
+    width: 40%;
+}
+.nav-bar{
+    padding: 1px 60px;
+    background-color: green;
+}
+.display-flex{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin: 10px, 10px, 150px, 150px;
+}
+.display-flex li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.ice-cream-group{
+    display: flex;
+    margin: 0 auto;
+}
+.img{
+    width: 50%;
+    height: auto;
+}
+.img-sau-rieng{
+    padding-top: 10px;
+}
+.img-sau-rieng img{
+    width: 115%;
+    height: auto;
+}
+.header-base{
+    display: flex;
+}
+.header-durian{
+    color: palevioletred;
+}
+.durian-list{
+    margin-left: 110px;
+    font-size: 20px;
+}
+.durian-list ul{
+    padding-left: 28px;
+}
+.durian-list ul li{
+    color: rgb(90, 208, 208);
+    list-style: circle;
+    font-style: italic;
+}
+.footer{
+    background-color: green;
+    text-align: center;
+    color: white;
+    padding: 5px 0px 5px 0px;
+}
+.menu{
+    width: 280px;
+    display: inline-block;
+    margin-left: 100px;
+}
+.top-menu{
+    color: white;
+    text-align: center;
+    background-color: green;
+    width: 350px;
+}
+.body-menu{
+    background-color: rgb(218, 209, 209);
+    width: 350px;
+    margin-top: -16px;
+}
+.body-menu ul{
+    list-style: none;
+    line-height: 2.0;
+    padding-left: 20px;
+    padding-right: 5px;
+}
+.tien   {
+    color: orangered;
+    float: right;
+}
+.order{
+    background-color: orangered;
+    border-radius: 8%;
+    color: white;
+    border: hidden;
+    height: 27px;
+    width: 80px;
+}
+.button{
+    text-align: right;
+    padding-bottom: 20px;
+}
+.total{
+    background-color: #fff;
+    color: white;
+    font-size: 23px;
+    text-align: center;
+    padding: 10px 0px;
+    margin-top: -16px;
+    margin-bottom: 10px;
+    width: 350px;
+    height: 30px;
+}

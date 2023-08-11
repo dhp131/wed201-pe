@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Turn ON/OFF bulb</title>
+  </head>
+  <body>
+    <img id="bd" src="OFF.jpg" />
+    <button id="bd1" onclick="turn()">ON</button>
+    <script>
+      let bd = document.getElementById("bd");
+      let bd1 = document.getElementById("bd1");
+      function turn() {
+        if (bd1.innerText == "ON") {
+          bd.setAttribute("src", "ON.jpg");
+          bd1.innerText = "OFF";
+        } else {
+          bd.setAttribute("src", "OFF.jpg");
+          bd1.innerText = "ON";
+        }
+      }
+    </script>
+  </body>
+</html>

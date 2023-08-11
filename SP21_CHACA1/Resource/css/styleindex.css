@@ -1,0 +1,48 @@
+.display-food {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.display-logo {
+  margin-bottom: 20px;
+}
+.logo img {
+  height: 208.33px;
+}
+.img-circle {
+  width: 250px;
+  height: 220px;
+}
+.container {
+  background-color: #343334;
+}
+.des-title {
+  color: yellow;
+  font-size: 20px;
+}
+.des-script {
+  color: white;
+  text-align: justify;
+  font-size: 18px;
+}
+.footer {
+  background-color: gray;
+  border-top: 2px solid orange;
+  padding-top: 20px;
+  margin-top: 50px;
+}
+.footer ul li {
+  color: white;
+  font-size: 18px;
+}
+.display-img img {
+  height: 400px;
+}
+@media (max-width: 992px) {
+  img {
+    margin: 0 auto;
+  }
+  .display-img img {
+    width: 630px;
+    margin-top: 20px;
+  }
+}

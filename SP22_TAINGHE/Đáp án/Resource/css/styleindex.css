@@ -1,0 +1,94 @@
+body {
+    overflow-x: hidden;
+}
+
+.header_logo {
+    text-align: center;
+}
+
+.header_logo img {
+    width: 120px;
+    height: 80px;
+    margin: 12px 0px;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.title {
+    text-align: center;
+}
+
+.sellter-item img {
+    width: 100%;
+}
+
+.sellter-item-content {
+    padding: 16px;
+    position: relative;
+    background-color: rgb(197, 185, 185);
+}
+
+.sellter-item-text {
+    color: white;
+    background-color: rgba(197, 185, 185, 0.5);
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.sellter-item-text h5 {
+    margin-bottom: 0;
+}
+
+.sale_off-item img {
+    width: 300px;
+    height: 300px;
+}
+
+.sale_off-text {
+    background-color: rgba(226, 215, 215, 0.911);
+}
+
+.sale_off-text p:first-child {
+    border-bottom: 1px solid black;
+}
+
+.sale_off-text p:nth-child(2) span {
+    font-weight: bold;
+}
+
+.sale_off-text p:last-child span {
+    color: red
+}
+
+.shoroom-image img {
+    width: 100%;
+}
+
+.shoroom-map iframe {
+    width: 100%;
+    height: 412px;
+}
+
+.footer {
+    background-color: black;
+    padding: 10px 0;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .sellter-item{
+        margin: 20px 0;
+    }
+    .hidden-mobile{
+        display: none;
+    }
+    .shoroom-image{
+        margin-top: 20px;
+    }
+}

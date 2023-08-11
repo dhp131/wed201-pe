@@ -1,0 +1,28 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {background:#FFF;font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";}
+.container {background:#FFF; font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace"; margin: 0 auto;}
+
+/*<!--Logo CSS-->*/
+.img-center { margin: 0 auto;}
+
+
+/*<!--Menu CSS-->*/
+.navbar {margin-top: 20px;}
+
+.nav ul li a {font-size:18px; color: #53565A;}
+
+.navbar ul li a:hover{
+	color: #FFFFFF;
+	background-color: #EF652F;
+}
+.active a{
+	background-color:#76CC11 !important;
+	color: #FFFFFF !important;
+}
+
+.fa-shopping-basket{
+	color: #FC0D0D;
+}
+
